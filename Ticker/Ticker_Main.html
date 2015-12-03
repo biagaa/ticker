@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticker</title>
+    <meta charset="utf-8" />
+
+    <!-- Jquery needed for Cycle2 -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- Jquery plugin for slidshow making the boxes change -->
+    <script src="jquery.cycle2.js"></script>
+
+    <!-- Addition to cycle 2 for carousel to make the boex duplicate and strech out -->
+    <script src="jquery.cycle2.carousel.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css"> 
+</head>
+<body>
+    <div class="contain-div">
+        <div class="row cycle-slideshow"
+             data-cycle-fx=carousel
+             data-cycle-speed="2000"
+             data-cycle-timeout=1
+             data-cycle-easing="linear"
+             data-cycle-carousel-fluid=true
+             data-cycle-pause-on-hover="true"
+             data-cycle-slides="> div">
+
+            <!-- Dont really under stand the formatting. VS complains that it's missing a closing div tag -->
+            <div class="box">
+                <div class="game-box">
+                    <div class="game-date">9/08<span class="game-prog">Final</span></div>
+                    <div class="game-opp">Green Bay<span class="score-opp">28</span></div>
+                    <div class="game-at">San Fran<span class="score-at">34</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="game-box">
+                    <div class="game-date">9/08<span class="game-prog">Final</span></div>
+                    <div class="game-opp">Jaguars<span class="score-opp">1000</span></div>
+                    <div class="game-at">Colts<span class="score-at">2</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="game-box">
+                    <div class="game-date">9/08<span class="game-prog">Final</span></div>
+                    <div class="game-opp">Ravens<span class="score-opp">2</span></div>
+                    <div class="game-at">Dolphins<span class="score-at">-6165</span></div>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

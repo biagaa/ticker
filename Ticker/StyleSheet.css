@@ -1,0 +1,38 @@
+﻿/*Changes the background color of the page*/
+body{background:#121212;}
+
+.score-box{
+	padding:0px;
+	margin:0px;
+	color:#fff;
+}
+
+/*Makes a nox with a white border and text white*/
+.game-box{
+	color:#fff;
+	padding:15px;
+	border:1px solid #333;
+}
+
+/*Pads the box and makes it a nice size. Without it the 
+    game-box will strech the length of the screen
+*/
+.box{
+	width:130px;
+	padding:5px;
+}
+
+/*Makes date smaller aswell as changing the test color to gray*/
+.game-date{
+	font-size:10px;
+	color:#666;
+}
+
+/*Moves the score and time all the way to the right*/
+.score-opp, .score-at, .game-prog{float:right;}
+
+/*Makes time (final) red*/
+.game-prog{color:#f00000;}
+
+/*Didnt see a visible change*/
+.game-opp, .game-at{width:100%;}
