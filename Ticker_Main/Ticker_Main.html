@@ -1,49 +1,37 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Ticker</title>
-    <meta charset="utf-8" />
+   <title>Ticker</title>
+   <meta charset="utf-8" />
 
-    <!-- Jquery needed for Cycle2 -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+   <!-- Jquery needed for Cycle2 -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-    <!-- Jquery plugin for slidshow making the boxes change -->
-    <script src="jquery.cycle2.js"></script>
+   <!-- Jquery plugin for slidshow making the boxes change -->
+   <script src="jquery.cycle2.js"></script>
 
-    <!-- Addition to cycle 2 for carousel to make the boex duplicate and strech out -->
-    <script src="jquery.cycle2.carousel.js"></script>
+   <!-- Addition to cycle 2 for carousel to make the boex duplicate and strech out -->
+   <script src="jquery.cycle2.carousel.js"></script>
 
-    <!-- Ticker custom scripts -->
-    <!--<script src="Ticker_scripts.js"></script>-->
+   <!-- Ticker custom scripts -->
+   <!--<script src="Ticker_scripts.js"></script>-->
 
-    <link rel="stylesheet" type="text/css" href="StyleSheet.css"> 
+   <link rel="stylesheet" type="text/css" href="StyleSheet.css"> 
 </head>
+
 <body>
-    <div class="contain-div">
-        <div class="row cycle-slideshow"
-             data-cycle-fx=carousel
-             data-cycle-speed="2000"
-             data-cycle-timeout=1
-             data-cycle-easing="linear"
-             data-cycle-carousel-fluid=true
-             data-cycle-pause-on-hover="true"
-             data-cycle-slides="> div">
+   <!--<div class="game-date">9/08<span class="game-prog">Final</span></div>
+   <div id="number_1" class="game-opp"></div>
+   <span id="number_2" class="score-opp"></span>
+   <div id="number_3" class="game-at"></div>
+   <span id="number_4" class="score-at"></span>-->
 
-            <!-- Dont really under stand the formatting. VS complains that it's missing a closing div tag -->
-            <div class="box">
-                <div class="game-box">
-                    <div class="game-date">9/08<span class="game-prog">Final</span></div>
-                    <div class="game-opp"></div>
-                    <span class="score-opp"></span>
-                    <div class="game-at"></div>
-                    <span class="score-at"></span>
-                </div>
-            </div>
+   <div id="league">
+   </div>
+   
+   <button type="button" onclick="loadDoc()" id="ClickHere">Refresh!</button>
 
-            <button type="button" onclick="loadDoc()" class="ClickHere">Click Me!</button>
-        </div>
-     </div>
-
-    <script src="Ticker_scripts.js"></script>
+   <!--XML parser script-->
+   <script src="Ticker_scripts.js"></script>
 </body>
 </html>
