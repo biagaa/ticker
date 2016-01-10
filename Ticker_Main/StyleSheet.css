@@ -1,5 +1,5 @@
 ﻿/*Changes the background color of the page*/
-/*body{background:#121212;}*/
+body{background:#121212;}
 
 .score-box{
 	padding:0px;
@@ -41,4 +41,5 @@
     float:left;
     padding:0px;
     margin:0px;
+    color:#f00000;
 }
