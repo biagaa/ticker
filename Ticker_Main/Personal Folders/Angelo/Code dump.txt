@@ -1,0 +1,110 @@
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+	function main_NFL_function(xml) {
+
+        //h=home, a=away
+        var i, y;
+        var day, time, quarter, hTeam, hMascot, aTeam, aMascot;
+        var hscore, aScore, redZone, week, year;
+        var xmlDoc = xml.responseXML;
+
+        x = xmlDoc.getElementsByTagName("gms");
+        txt = "";
+
+        var week = x[0].getAttribute('w');
+        var year = x[0].getAttribute('y');
+
+        x = xmlDoc.getElementsByTagName("g");
+
+        //Parse the data for each game
+        for (i = 0; i < x.length; i++)
+        {
+            //Will have to check if data is there before we check
+            day = x[i].getAttribute('d');
+            time = x[i].getAttribute('t');
+            quarter = x[i].getAttribute('q');
+            hTeam = x[i].getAttribute('h');
+            hMascot = x[i].getAttribute('hnn');
+            hscore = x[i].getAttribute('hs');
+            aTeam = x[i].getAttribute('v');
+            aMascot = x[i].getAttribute('vnn');
+            aScore = x[i].getAttribute('vs');
+            redZone = x[i].getAttribute('rz');
+
+            //create main game box
+            var gameBoxDiv = document.createElement('div');
+            gameBoxDiv.setAttribute("id", "game-box");
+            gameBoxDiv.setAttribute("class", "game_css");
+
+            //create game info box
+            var gameInfoDiv = document.createElement('div');
+            gameInfoDiv.setAttribute("id", "game-info");
+            gameInfoDiv.setAttribute("class", "game_info");
+
+            //create game info box
+            var teamnInfoDiv = document.createElement('div');
+            teamnInfoDiv.setAttribute("id", "team-info");
+            teamnInfoDiv.setAttribute("class", "team_info");
+
+            //create possession info box
+            var posInfoDiv = document.createElement('div');
+            posInfoDiv.setAttribute("id", "pos-info");
+            posInfoDiv.setAttribute("class", "pos_info");
+
+            //create time info box
+            var timeInfoDiv = document.createElement('div');
+            timeInfoDiv.setAttribute("id", "time-info");
+            timeInfoDiv.setAttribute("class", "time_info");
+
+            //Time info
+            //TODO: If check for when game is in progess or not
+            gameInfoDiv.appendChild(makeDivForData(day, "game-day"));
+            gameInfoDiv.appendChild(makeDivForData(time, "game-time"));
+            gameInfoDiv.appendChild(makeDivForData(quarter, "game-qtr"));
+            //add k for the time in the quarter
+
+            //Possession info
+            //add rz for red zone info
+            gameInfoDiv.appendChild(makeDivForData(hTeam, "home-team"));
+            gameInfoDiv.appendChild(makeDivForData(hMascot, "home-mascot"));
+            gameInfoDiv.appendChild(makeDivForData(hscore, "home-score"));
+            gameInfoDiv.appendChild(makeDivForData(aTeam, "away-team"));
+            gameInfoDiv.appendChild(makeDivForData(aMascot, "away-mascot"));
+            gameInfoDiv.appendChild(makeDivForData(aScore, "game-day"));
+
+            gameBoxDiv.appendChild(gameInfoDiv);
+            document.getElementById("league").appendChild(gameBoxDiv);
+        }
+    }
+	
+	    function makeDivForData(data, idName)
+    {
+        var div = document.createElement('div');
+        var divText = document.createTextNode(data);
+        div.setAttribute("id", idName);
+        div.appendChild(divText);
+
+        return div;
+    }
+	
+	window.onload = function () {
+
+    document.getElementById("ClickHere").onclick = function loadDoc() {
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                //main_NFL_function(xhttp);
+            }
+        };
+        xhttp.open("GET", "NFL_scores_1.xml", true);
+        xhttp.send();
+    }
+
+    function Main_Reddit_Ticker(xml)
+    {
+        //Create and init variables
+
+
+    }
+}
