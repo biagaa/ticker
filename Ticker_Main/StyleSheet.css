@@ -41,5 +41,9 @@ body{background:#121212;}
     float:left;
     padding:0px;
     margin:0px;
-    color:#f00000;
+    color:white;
+    height:100px;
+    width: 300px;
+    overflow:auto;
+    /*display:inline;*/
 }

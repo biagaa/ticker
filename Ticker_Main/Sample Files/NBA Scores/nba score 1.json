@@ -1,0 +1,324 @@
+{
+  "dt": 20160209,
+  "nurl": "http:\/\/data.nba.com\/data\/10s\/json\/nbacom\/2015\/gameline\/20160209\/games.json",
+  "today": 20160209,
+  "mid": 1455075558611,
+  "pi": 10,
+  "games": 
+  [
+    {
+      "gid": "0021500784",
+      "st": 3,
+      "ot": 0,
+      "game_url": "20160209\/SASMIA",
+      "recap": "",
+      "qts": [ 100, 100, 100, 100 ],
+      "prd": {
+        "n": 4,
+        "s": "FINAL"
+      },
+      "broadcaster": {
+        "is_national": true,
+        "name": "TNT"
+      },
+      "h1": {
+        "img": "http:\/\/i2.cdn.turner.com\/nba\/nba\/dam\/assets\/160209223405-0021500784-sas-mia-play5-00001315.70x53.jpg",
+        "url": "\/video\/games\/heat\/2016\/02\/09\/0021500784-sas-mia-play5.nba\/index.html"
+      },
+      "is_TNT": false,
+      "lp": {
+        "lp_video": false,
+        "condensed_bb": false,
+        "visitor": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": false,
+            "onAir": false,
+            "archBB": false
+          }
+        },
+        "home": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": false,
+            "archBB": false
+          }
+        }
+      },
+      "teams": [
+        {
+          "home": 0,
+          "id": 1610612759,
+          "win": 1,
+          "awayTeam": "SAS",
+          "scores": [ 119, 20, 34, 31, 34 ]
+        },
+        {
+          "home": 1,
+          "id": 1610612748,
+          "win": 0,
+          "homeTeam": "MIA",
+          "scores": [ 101, 24, 23, 28, 26 ]
+        }
+      ]
+    },
+    {
+      "gid": "0021500785",
+      "st": 3,
+      "ot": 0,
+      "game_url": "20160209\/WASNYK",
+      "recap": "",
+      "qts": [ 100, 100, 100, 100 ],
+      "prd": {
+        "n": 4,
+        "s": "FINAL"
+      },
+      "broadcaster": {
+        "is_national": false,
+        "name": "LP"
+      },
+      "h1": {
+        "img": "http:\/\/i2.cdn.turner.com\/nba\/nba\/dam\/assets\/160209212131-0021500786-was-nyk-play4-00000515.70x53.jpg",
+        "url": "\/video\/games\/knicks\/2016\/02\/09\/0021500786-was-nyk-play4.nba\/index.html"
+      },
+      "is_TNT": false,
+      "lp": {
+        "lp_video": true,
+        "condensed_bb": false,
+        "visitor": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": false,
+            "archBB": false
+          }
+        },
+        "home": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": false,
+            "archBB": false
+          }
+        }
+      },
+      "teams": [
+        {
+          "home": 0,
+          "id": 1610612764,
+          "win": 1,
+          "awayTeam": "WAS",
+          "scores": [ 111, 35, 28, 20, 28 ]
+        },
+        {
+          "home": 1,
+          "id": 1610612752,
+          "win": 0,
+          "homeTeam": "NYK",
+          "scores": [ 108, 21, 29, 33, 25 ]
+        }
+      ]
+    },
+    {
+      "gid": "0021500786",
+      "st": 3,
+      "ot": 0,
+      "game_url": "20160209\/BOSMIL",
+      "recap": "",
+      "qts": [ 100, 100, 100, 100 ],
+      "prd": {
+        "n": 4,
+        "s": "FINAL"
+      },
+      "broadcaster": {
+        "is_national": false,
+        "name": "LP"
+      },
+      "h1": {
+        "img": "http:\/\/i2.cdn.turner.com\/nba\/nba\/dam\/assets\/160209221646-0021500786-bos-mil-play6-00001312.70x53.jpg",
+        "url": "\/video\/games\/bucks\/2016\/02\/09\/0021500786-bos-mil-play6.nba\/index.html"
+      },
+      "is_TNT": false,
+      "lp": {
+        "lp_video": true,
+        "condensed_bb": false,
+        "visitor": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": false,
+            "archBB": false
+          }
+        },
+        "home": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": false,
+            "archBB": false
+          }
+        }
+      },
+      "teams": [
+        {
+          "home": 0,
+          "id": 1610612738,
+          "win": 0,
+          "awayTeam": "BOS",
+          "scores": [ 111, 30, 24, 20, 37 ]
+        },
+        {
+          "home": 1,
+          "id": 1610612749,
+          "win": 1,
+          "homeTeam": "MIL",
+          "scores": [ 112, 26, 27, 40, 19 ]
+        }
+      ]
+    },
+    {
+      "gid": "0021500787",
+      "st": 2,
+      "ot": 0,
+      "game_url": "20160209\/UTADAL",
+      "recap": "",
+      "qts": [ 100, 100, 100, 54 ],
+      "prd": {
+        "n": 4,
+        "s": "4Q - 6:29"
+      },
+      "broadcaster": {
+        "is_national": false,
+        "name": "LP"
+      },
+      "h1": {
+        "img": "http:\/\/i2.cdn.turner.com\/nba\/nba\/dam\/assets\/160209222923-0021500787-uta-dal-play4-00002227.70x53.jpg",
+        "url": "\/video\/games\/mavericks\/2016\/02\/09\/0021500787-uta-dal-play4.nba\/index.html"
+      },
+      "is_TNT": false,
+      "lp": {
+        "lp_video": true,
+        "condensed_bb": false,
+        "visitor": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": true,
+            "archBB": false
+          }
+        },
+        "home": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": true,
+            "archBB": false
+          }
+        }
+      },
+      "teams": [
+        {
+          "home": 0,
+          "id": 1610612762,
+          "win": 0,
+          "awayTeam": "UTA",
+          "scores": [ 94, 21, 30, 27, 16 ]
+        },
+        {
+          "home": 1,
+          "id": 1610612742,
+          "win": 0,
+          "homeTeam": "DAL",
+          "scores": [ 94, 29, 29, 29, 7 ]
+        }
+      ]
+    },
+    {
+      "gid": "0021500788",
+      "st": 1,
+      "ot": 0,
+      "game_url": "20160209\/HOUGSW",
+      "recap": "",
+      "qts": [ 0, 0, 0, 0 ],
+      "prd": {
+        "n": 0,
+        "s": "0Q - 00:00"
+      },
+      "broadcaster": {
+        "is_national": true,
+        "name": "TNT"
+      },
+      "h1": {
+        "img": "",
+        "url": ""
+      },
+      "is_TNT": true,
+      "lp": {
+        "lp_video": false,
+        "condensed_bb": false,
+        "visitor": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": false,
+            "onAir": false,
+            "archBB": false
+          }
+        },
+        "home": {
+          "audio": {
+            "ENG": true,
+            "SPA": false
+          },
+          "video": {
+            "avl": true,
+            "onAir": false,
+            "archBB": false
+          }
+        }
+      },
+      "teams": [
+        {
+          "home": 0,
+          "id": 1610612745,
+          "win": 0,
+          "awayTeam": "HOU",
+          "scores": [ 0, 0, 0, 0, 0 ]
+        },
+        {
+          "home": 1,
+          "id": 1610612744,
+          "win": 0,
+          "homeTeam": "GSW",
+          "scores": [ 0, 0, 0, 0, 0 ]
+        }
+      ]
+    }
+  ]}

@@ -1,0 +1,1535 @@
+{
+  "sports_content": 
+  {
+    "sports_meta": {
+      "date_time": "20160209 2225",
+      "season_meta": {
+        "calendar_date": "20160209",
+        "season_year": "2015",
+        "stats_season_year": "2015",
+        "stats_season_id": "22015",
+        "stats_season_stage": "2",
+        "roster_season_year": "2015",
+        "schedule_season_year": "2015",
+        "standings_season_year": "2015",
+        "season_id": "22015",
+        "display_year": "2015-16",
+        "display_season": "Regular Season",
+        "season_stage": "2"
+      },
+      "next": { "url": "http:\/\/data.nba.com\/data\/5s\/json\/cms\/noseason\/scoreboard\/20160210\/games.json" }
+    },
+    "games": {
+      "game": [
+        {
+          "id": "0021500789",
+          "game_url": "20160210\/CHAIND",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "1900",
+          "arena": "Bankers Life Fieldhouse",
+          "city": "Indianapolis",
+          "state": "IN",
+          "country": "US",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1900",
+          "previewAvailable": "1",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/indiana-pacers-vs-charlotte-hornets-indianapolis-indiana-02-10-2016\/event\/05004F0DBB224306?brand=nba&amp;extcmp=gw502084&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_IND" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "7:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSSE-CHA",
+                "long_nm": "Fox Sports Southest - Charlotte",
+                "code": "char",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "visitor"
+              },
+              {
+                "name": "FSI",
+                "long_nm": "Fox Sports Indiana",
+                "code": "indr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "home"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:212(Internet H:891\/A:883)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "WFNZ 610 AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "1070 The Fan"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FSI"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "Fox Sports Southeast - Charlotte"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612766",
+            "team_key": "CHA",
+            "city": "Charlotte",
+            "abbreviation": "CHA",
+            "nickname": "Hornets",
+            "url_name": "hornets",
+            "team_code": "hornets",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612754",
+            "team_key": "IND",
+            "city": "Indiana",
+            "abbreviation": "IND",
+            "nickname": "Pacers",
+            "url_name": "pacers",
+            "team_code": "pacers",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500790",
+          "game_url": "20160210\/SASORL",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "1900",
+          "arena": "Amway Center",
+          "city": "Orlando",
+          "state": "FL",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1800",
+          "previewAvailable": "0",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/orlando-magic-vs-san-antonio-spurs-orlando-florida-02-10-2016\/event\/22004EF772E86A6B?brand=nba&amp;extcmp=gw502495&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_ORL" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "7:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSSW-SA",
+                "long_nm": "Fox Sports Southwest - San Antonio",
+                "code": "sasr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "visitor"
+              },
+              {
+                "name": "FSFL",
+                "long_nm": "Fox Sports Network - Florida",
+                "code": "orlr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "home"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:213(Internet H:901\/A:906)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "WOAI 1200AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "ESPN 580 \/ Salsa 98.1 FM (ESP)"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FS Florida"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "FSSW"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612759",
+            "team_key": "SAS",
+            "city": "San Antonio",
+            "abbreviation": "SAS",
+            "nickname": "Spurs",
+            "url_name": "spurs",
+            "team_code": "spurs",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612753",
+            "team_key": "ORL",
+            "city": "Orlando",
+            "abbreviation": "ORL",
+            "nickname": "Magic",
+            "url_name": "magic",
+            "team_code": "magic",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500791",
+          "game_url": "20160210\/SACPHI",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "1900",
+          "arena": "Wells Fargo Center",
+          "city": "Philadelphia",
+          "state": "PA",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1600",
+          "previewAvailable": "1",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/ev10.evenue.net\/cgi-bin\/ncommerce3\/SEGetEventInfo?ticketCode=GS%3ASIXERS%3ASI2015%3ASI26%3A&amp;linkID=global-sixers&amp;RSRC=NBA_MobileWeb_Schedule&amp;shopperContext=&amp;pc=&amp;caller=&amp;appCode=&amp;groupCode=76SINGLE&amp;cgc=" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "7:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "CSN-P",
+                "long_nm": "Comcast Sportsnet - Philadelphia",
+                "code": "phir",
+                "url": "http:\/\/www.csnphilly.com\/SixersStream",
+                "home_visitor": "home"
+              },
+              {
+                "name": "CSN-S",
+                "long_nm": "Comcast Sportsnet - Sacramento",
+                "code": "sacr",
+                "url": "http:\/\/www.csncalifornia.com\/KingsStream",
+                "home_visitor": "visitor"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:214(Internet H:902\/A:905)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "KHTK Sports 1140 AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "97.5 The Fanatic"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "CSN"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "CSN-CA"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612758",
+            "team_key": "SAC",
+            "city": "Sacramento",
+            "abbreviation": "SAC",
+            "nickname": "Kings",
+            "url_name": "kings",
+            "team_code": "kings",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612755",
+            "team_key": "PHI",
+            "city": "Philadelphia",
+            "abbreviation": "PHI",
+            "nickname": "76ers",
+            "url_name": "sixers",
+            "team_code": "sixers",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500792",
+          "game_url": "20160210\/LACBOS",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "1930",
+          "arena": "TD Garden",
+          "city": "Boston",
+          "state": "MA",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1930",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1630",
+          "previewAvailable": "0",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/boston-celtics-vs-los-angeles-clippers-boston-massachusetts-02-10-2016\/event\/01004F231F1A904E?brand=nba&amp;extcmp=gw501798&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_BOS" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "7:30 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSNP",
+                "long_nm": "FSN Prime Ticket",
+                "code": "lacr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "visitor"
+              },
+              {
+                "name": "CSN-NE",
+                "long_nm": "Comcast Sports Net New England",
+                "code": "bosr",
+                "url": "http:\/\/www.csnne.com\/CelticsStream",
+                "home_visitor": "home"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:215(Internet H:881\/A:892)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "The Beast 980\/KWKW 1330AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "98.5 The Sports Hub"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "CSNHD"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "PRIME TICKET"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612746",
+            "team_key": "LAC",
+            "city": "Los Angeles",
+            "abbreviation": "LAC",
+            "nickname": "Clippers",
+            "url_name": "clippers",
+            "team_code": "clippers",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612738",
+            "team_key": "BOS",
+            "city": "Boston",
+            "abbreviation": "BOS",
+            "nickname": "Celtics",
+            "url_name": "celtics",
+            "team_code": "celtics",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500793",
+          "game_url": "20160210\/MEMBKN",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "1930",
+          "arena": "Barclays Center",
+          "city": "Brooklyn",
+          "state": "NY",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1930",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1830",
+          "previewAvailable": "0",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/brooklyn-nets-vs-memphis-grizzlies-brooklyn-new-york-02-10-2016\/event\/00004F0B8D661CA4?brand=nba&amp;extcmp=gw501843&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_NETS" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "7:30 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSSE-MEM",
+                "long_nm": "Fox Sports Southeast Memphis",
+                "code": "memr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "visitor"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:216(Internet H:882\/A:894)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "WMFS"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "WFAN"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "YES"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "Fox Sports Southeast"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612763",
+            "team_key": "MEM",
+            "city": "Memphis",
+            "abbreviation": "MEM",
+            "nickname": "Grizzlies",
+            "url_name": "grizzlies",
+            "team_code": "grizzlies",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612751",
+            "team_key": "BKN",
+            "city": "Brooklyn",
+            "abbreviation": "BKN",
+            "nickname": "Nets",
+            "url_name": "nets",
+            "team_code": "nets",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500794",
+          "game_url": "20160210\/DENDET",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "1930",
+          "arena": "Palace of Auburn Hills",
+          "city": "Detroit",
+          "state": "MI",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1930",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1730",
+          "previewAvailable": "1",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/detroit-pistons-vs-denver-nuggets-auburn-hills-michigan-02-10-2016\/event\/08004F0C17797906?brand=nba&amp;extcmp=gw502002&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_DET" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "7:30 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSD+",
+                "long_nm": "Fox Sports Network - Detroit Plus",
+                "code": "detr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "home"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:217(Internet H:888\/A:887)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "KRWZ 950AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "105.1 FM"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FS Detroit Plus"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "Altitude"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612743",
+            "team_key": "DEN",
+            "city": "Denver",
+            "abbreviation": "DEN",
+            "nickname": "Nuggets",
+            "url_name": "nuggets",
+            "team_code": "nuggets",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612765",
+            "team_key": "DET",
+            "city": "Detroit",
+            "abbreviation": "DET",
+            "nickname": "Pistons",
+            "url_name": "pistons",
+            "team_code": "pistons",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500795",
+          "game_url": "20160210\/LALCLE",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "2000",
+          "arena": "Quicken Loans Arena",
+          "city": "Cleveland",
+          "state": "OH",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "2000",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1700",
+          "previewAvailable": "1",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/www.nba.com\/cavaliers\/tickets\/individual\/?&amp;utm_source=nba&amp;utm_medium=link&amp;utm_campaign=nba-mobile" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "8:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "false",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "false",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "ESPN",
+                "long_nm": "",
+                "code": "espn",
+                "url": "http:\/\/espn.go.com\/watchespn\/index\/_\/id\/2723837\/los-angeles-lakers-vs-cleveland-cavaliers",
+                "home_visitor": "natl"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:207(Internet H:885\/A:893)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "710 AM ESPN \/ 1330 AM ESPN DEPORTES"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "WTAM 1100 \/ 100.7 WMMS \/ 87.7 FM (ESP)"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "ESPN"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FSOhio"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "TWC SN \/ TWC D"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612747",
+            "team_key": "LAL",
+            "city": "Los Angeles",
+            "abbreviation": "LAL",
+            "nickname": "Lakers",
+            "url_name": "lakers",
+            "team_code": "lakers",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612739",
+            "team_key": "CLE",
+            "city": "Cleveland",
+            "abbreviation": "CLE",
+            "nickname": "Cavaliers",
+            "url_name": "cavaliers",
+            "team_code": "cavaliers",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500796",
+          "game_url": "20160210\/ATLCHI",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "2000",
+          "arena": "United Center",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "2000",
+          "previewAvailable": "1",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/chicago-bulls-vs-atlanta-hawks-chicago-illinois-02-10-2016\/event\/04004F1A9A4819E9?brand=nba&amp;extcmp=gw501920&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_CHI" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "8:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "CSN-C",
+                "long_nm": "Comcast Sportsnet - Chicago",
+                "code": "chir",
+                "url": "http:\/\/www.csnchicago.com\/BullsStream",
+                "home_visitor": "home"
+              },
+              {
+                "name": "FSSE-ATL",
+                "long_nm": "Fox Sports Southeast - Atlanta",
+                "code": "atlr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "visitor"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:218(Internet H:884\/A:880)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "92.9 FM \"The Game\""
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "ESPN 1000 AM \/ WRTO 1200"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "CSN-Chicago"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "FOX Sports Southeast"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612737",
+            "team_key": "ATL",
+            "city": "Atlanta",
+            "abbreviation": "ATL",
+            "nickname": "Hawks",
+            "url_name": "hawks",
+            "team_code": "hawks",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612741",
+            "team_key": "CHI",
+            "city": "Chicago",
+            "abbreviation": "CHI",
+            "nickname": "Bulls",
+            "url_name": "bulls",
+            "team_code": "bulls",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500797",
+          "game_url": "20160210\/TORMIN",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "2000",
+          "arena": "Target Center",
+          "city": "Minneapolis",
+          "state": "MN",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "2000",
+          "previewAvailable": "1",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/www.nba.com\/timberwolves\/tickets" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "8:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSNN-MIN",
+                "long_nm": "Fox Sports Net North-Minnesota",
+                "code": "minr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "home"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:219(Internet H:897\/A:907)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "TSN Radio 1050 Toronto"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "830 WCCO"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FS North"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "TSNN"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612761",
+            "team_key": "TOR",
+            "city": "Toronto",
+            "abbreviation": "TOR",
+            "nickname": "Raptors",
+            "url_name": "raptors",
+            "team_code": "raptors",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612750",
+            "team_key": "MIN",
+            "city": "Minnesota",
+            "abbreviation": "MIN",
+            "nickname": "Timberwolves",
+            "url_name": "timberwolves",
+            "team_code": "timberwolves",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500798",
+          "game_url": "20160210\/UTANOP",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "2000",
+          "arena": "Smoothie King Center",
+          "city": "New Orleans",
+          "state": "LA",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1800",
+          "previewAvailable": "0",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/new-orleans-pelicans-vs-utah-jazz-new-orleans-louisiana-02-10-2016\/event\/1B004F24FFA18381?brand=nba&amp;extcmp=gw502371&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_NO" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "8:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSNO",
+                "long_nm": "Fox Sports Net New Orleans",
+                "code": "nopr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "home"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:220(Internet H:898\/A:908)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "KZNS"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "WRNO 99.5FM"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FSNOLA"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "ROOT"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612762",
+            "team_key": "UTA",
+            "city": "Utah",
+            "abbreviation": "UTA",
+            "nickname": "Jazz",
+            "url_name": "jazz",
+            "team_code": "jazz",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612740",
+            "team_key": "NOP",
+            "city": "New Orleans",
+            "abbreviation": "NOP",
+            "nickname": "Pelicans",
+            "url_name": "pelicans",
+            "team_code": "pelicans",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500799",
+          "game_url": "20160210\/GSWPHX",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "2100",
+          "arena": "Talking Stick Resort Arena",
+          "city": "Phoenix",
+          "state": "AZ",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1900",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "1800",
+          "previewAvailable": "0",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/phoenix-suns-vs-golden-state-warriors-phoenix-arizona-02-10-2016\/event\/19004F06E9843927?brand=nba&amp;extcmp=gw502537&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_PHX" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "9:00 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "true",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "FSA",
+                "long_nm": "Fox Sports Net Arizona",
+                "code": "phxr",
+                "url": "http:\/\/www.foxsportsgo.com",
+                "home_visitor": "home"
+              },
+              {
+                "name": "CSN-BA",
+                "long_nm": "Comcast Sports Net - Bay Area",
+                "code": "gswr",
+                "url": "http:\/\/www.csnbayarea.com\/WarriorsStream",
+                "home_visitor": "visitor"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:119(Internet H:903\/A:889)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "KNBR 680 AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "AZ Sports 98.7 FM"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "FSAZ"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "CSN Bay Area"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612744",
+            "team_key": "GSW",
+            "city": "Golden State",
+            "abbreviation": "GSW",
+            "nickname": "Warriors",
+            "url_name": "warriors",
+            "team_code": "warriors",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612756",
+            "team_key": "PHX",
+            "city": "Phoenix",
+            "abbreviation": "PHX",
+            "nickname": "Suns",
+            "url_name": "suns",
+            "team_code": "suns",
+            "score": ""
+          }
+        },
+        {
+          "id": "0021500800",
+          "game_url": "20160210\/HOUPOR",
+          "season_id": "22015",
+          "date": "20160210",
+          "time": "2230",
+          "arena": "Moda Center",
+          "city": "Portland",
+          "state": "OR",
+          "country": "",
+          "home_start_date": "20160210",
+          "home_start_time": "1930",
+          "visitor_start_date": "20160210",
+          "visitor_start_time": "2130",
+          "previewAvailable": "0",
+          "recapAvailable": "0",
+          "notebookAvailable": "0",
+          "tnt_ot": "0",
+          "buzzerBeater": "0",
+          "ticket": { "ticket_link": "http:\/\/m.ticketmaster.com\/portland-trail-blazers-portland-oregon-02-10-2016\/event\/0F004F12BFC32430?brand=nba&amp;extcmp=gw502577&amp;wt.mc_id=NBA_LEAGUE_SCHED_PG_PRI_POR" },
+          "period_time": {
+            "period_value": "",
+            "period_status": "10:30 pm ET",
+            "game_status": "1",
+            "game_clock": "",
+            "total_periods": "4",
+            "period_name": "Qtr"
+          },
+          "lp": {
+            "lp_video": "false",
+            "condensed_bb": "false",
+            "visitor": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "false",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            },
+            "home": {
+              "audio": {
+                "ENG": "false",
+                "SPA": "false"
+              },
+              "video": {
+                "avl": "true",
+                "onAir": "false",
+                "archBB": "false"
+              }
+            }
+          },
+          "dl": {
+            "link": [
+              {
+                "name": "ESPN",
+                "long_nm": "",
+                "code": "espn",
+                "url": "http:\/\/espn.go.com\/watchespn\/index\/_\/id\/2723838\/houston-rockets-vs-portland-trail-blazers",
+                "home_visitor": "natl"
+              }
+            ]
+          },
+          "broadcasters": {
+            "radio": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "Sirius:207(Internet H:904\/A:890)"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "790 AM"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "Rip City Radio 620"
+                }
+              ]
+            },
+            "tv": {
+              "broadcaster": [
+                {
+                  "scope": "natl",
+                  "home_visitor": "natl",
+                  "display_name": "ESPN"
+                },
+                {
+                  "scope": "can",
+                  "home_visitor": "can",
+                  "display_name": "TSN1"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "home",
+                  "display_name": "KGWHD"
+                },
+                {
+                  "scope": "local",
+                  "home_visitor": "visitor",
+                  "display_name": "ROOT"
+                }
+              ]
+            }
+          },
+          "visitor": {
+            "id": "1610612745",
+            "team_key": "HOU",
+            "city": "Houston",
+            "abbreviation": "HOU",
+            "nickname": "Rockets",
+            "url_name": "rockets",
+            "team_code": "rockets",
+            "score": ""
+          },
+          "home": {
+            "id": "1610612757",
+            "team_key": "POR",
+            "city": "Portland",
+            "abbreviation": "POR",
+            "nickname": "Trail Blazers",
+            "url_name": "blazers",
+            "team_code": "blazers",
+            "score": ""
+          }
+        }
+      ]
+    }
+  }}

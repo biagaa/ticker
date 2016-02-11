@@ -108,3 +108,46 @@
 
     }
 }
+
+
+window.onload = function () {
+
+    document.getElementById("ClickHere").onclick = function loadDoc() {
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                Main_Reddit_Ticker(xhttp);
+            }
+        };
+        xhttp.open("GET", "News_1.xml", true);
+        xhttp.send();
+    }
+
+    function Main_Reddit_Ticker(xml) {
+        //Create and init variables
+
+        var xmlDoc = xml.responseXML;
+        var title;
+
+        x = xmlDoc.getElementsByTagName("title").nodeValue;
+
+        var titleBox = document.createElement('div');
+        titleBox.setAttribute("id", "title-box");
+        titleBox.setAttribute("class", "title_css");
+
+        //document.getElementById("news-ticker").appendChild(titleBox);
+
+        ////Parse the data for each game
+        //for (i = 0; i < x.length; i++)
+        //{
+        //    title = x[i].nodeValue;
+
+        //    var titleBox = document.createElement('div');
+        //    titleBox.setAttribute("id", "title-box");
+        //    titleBox.setAttribute("class", "title_css");
+
+        //    document.getElementById("news-ticker").appendChild(titleBox);
+        //}
+    }
+}
