@@ -1,0 +1,28 @@
+$(document).ready(function () {
+    $('#ClickHere').click(function () {
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (xhttp.readyState == 4 && xhttp.status == 200) {
+
+                xhttp.toString()
+                main_Reddit_News_function(xhttp);
+
+            }
+        };
+        xhttp.open("GET", "https://www.reddit.com/r/news.json", true);
+        xhttp.send();
+
+        }); 
+
+});
+
+function main_Reddit_News_function(json) {
+
+    //var response = '{"result":true,"count":1}';
+    //JSON.toString(json);
+    var data = JSON.stringify(json);
+    //var data = JSON.parse(response);
+
+    var hello = 0;
+}

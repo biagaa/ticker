@@ -1,49 +1,44 @@
-﻿/*Changes the background color of the page*/
-body{background:#121212;}
-
-.score-box{
-	padding:0px;
-	margin:0px;
-	color:#fff;
+﻿#ticker-wrapper{
+    /*position: fixed;
+    top: 0;
+    left: 0;*/
+    height: 40px;
+    border: 1px solid black;
+    background: red;
 }
 
-/*Makes a nox with a white border and text white*/
-.game-box{
-	color:#fff;
-	padding:15px;
-	border:1px solid #333;
+#news-text{
+    position: absolute;
+    top: 17px;
+    left: 20px;
 }
 
-/*Pads the box and makes it a nice size. Without it the 
-    game-box will strech the length of the screen
-*/
-.box{
-	width:130px;
-	padding:5px;
+#news-ticker{
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    height: inherit;
+    background: black;
+    left: 130px;
+    /*margin-top: -1px;*/
 }
 
-/*Makes date smaller aswell as changing the test color to gray*/
-.game-date{
-	font-size:10px;
-	color:#666;
+#news-ticker > div{
+    display: inline-block;
+    height: 30px;
+    margin-top: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-/*Moves the score and time all the way to the right*/
-.score-opp, .score-at, .game-prog{float:right;}
+a{
+    color: white;
+}
 
-/*Makes time (final) red*/
-.game-prog{color:#f00000;}
+a:link{
+    text-decoration: none;
+}
 
-/*Didnt see a visible change*/
-.game-opp, .game-at{width:100%;}
-
-.game_css {
-    float:left;
-    padding:0px;
-    margin:0px;
-    color:white;
-    height:100px;
-    width: 300px;
-    overflow:auto;
-    /*display:inline;*/
+a:hover{
+    font-weight: bold;
 }
