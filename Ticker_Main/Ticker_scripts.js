@@ -11,7 +11,7 @@
                   var urlLink = post.data.url;
                   urlLink = urlLink.replace(/\/$/, '');
 
-                  $("#news-ticker").append('<div id="news-post" class="news__post"> <a href=' + urlLink + '>'+ post.data.title + '</a> </div>');
+                  $("#news-ticker").append('<div id="news-post" class="news__post"> <a href=' + urlLink + '>'+ post.data.title + '</a> &middot </div>');
                   //$("#news-post").append('<br id="post-title">' + post.data.title + '</br>');
                   //$("#reddit-content").append('<br>' + post.data.url);
                   //$("#reddit-content").append('<br>' + post.data.permalink);
