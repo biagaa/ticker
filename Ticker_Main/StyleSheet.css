@@ -28,13 +28,13 @@
 }
 
 @keyframes scroll{
-   0%   {left: 500px;}
-   100% {left: -950px;}
+   0%   {left: 100px;}
+   100% {left: -100%;}
 }
 
 @-webkit-keyframes scroll{
-   0%   {left: 500px;}
-   100% {left: -950px;}
+   0%   {left: 100px;}
+   100% {left: -100%;}
 }
 
 #news-ticker > div{
@@ -44,7 +44,16 @@
     margin-top: 9px;
     margin-left: 15px;
     margin-right: 15px;
-    -webkit-animation: scroll 20s infinite linear;
+    
+    -webkit-animation-name: scroll; /* Chrome, Safari, Opera */
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    /*-webkit-animation-duration: 90s;*/
+
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /*animation-duration: 90s;*/
 }
 
 a{
@@ -57,4 +66,5 @@ a:link{
 
 a:hover{
     font-weight: bold;
+    -webkit-animation-play-state:paused;
 }
