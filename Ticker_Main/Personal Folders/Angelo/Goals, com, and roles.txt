@@ -1,0 +1,29 @@
+Goals:
+Pusedo code to explain the functionality and look
+
+Description:
+
+Get a wiki started
+
+Relase date:
+
+Bugs: procedure
+
+Revune: advertising
+
+source data: Sports, bars, news, events
+
+Weekly meeting: Thursday 7:30 pm
+
+marketing:
+
+Design: Logo. layout, color scheme, first edition
+
+Role:
+
+Angelo: Java script, html, source data
+Alain: design, marketing
+
+What do we need to learn.
+
+Communicationc
