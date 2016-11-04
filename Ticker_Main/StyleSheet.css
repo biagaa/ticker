@@ -1,5 +1,8 @@
-﻿body{
+﻿@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #ticker-wrapper{
@@ -15,6 +18,8 @@
     position: absolute;
     top: 11.5px;
     left: 40px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 }
 
 #news-ticker{
@@ -37,6 +42,11 @@
    100% {left: -100%;}
 }
 
+#ticker-wrapper :hover{
+   /*-webkit-animation-play-state:paused;
+   animation-play-state:paused;*/
+}
+
 #news-ticker > div{
     position:relative;
     display: inline-block;
@@ -48,12 +58,10 @@
     -webkit-animation-name: scroll; /* Chrome, Safari, Opera */
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
-    /*-webkit-animation-duration: 90s;*/
 
     animation-name: scroll;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    /*animation-duration: 90s;*/
 }
 
 a{
