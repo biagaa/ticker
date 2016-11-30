@@ -11,18 +11,24 @@ body{
     left: 0;*/
     height: 40px;
     border: 1px solid black;
+	border-bottom: 0px;
     background: red;
 }
 
-#news-text{
+#news-text, #nfl-text{
     position: absolute;
-    top: 11.5px;
-    left: 40px;
+    /*top: 11.5px;*/
+    /*left: 40px;*/
+	/*text-align: center*/
+	    display: flex;
+    /* flex-direction: column;*/
+    align-items: center; 
+    /* justify-content: center;*/Z
     font-weight: bold;
     text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 }
 
-#news-ticker{
+#news-ticker, #nfl-ticker{
     position: absolute;
     overflow: hidden;
     white-space: nowrap;
@@ -31,6 +37,8 @@ body{
     left: 130px;
     /*margin-top: -1px;*/
 }
+
+
 
 @keyframes scroll{
    0%   {left: 100px;}

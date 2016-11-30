@@ -10,6 +10,9 @@
               data.data.children.slice(0, numChildren + 1),
               function (i, post) {
                   var urlLink = post.data.url;
+                  
+                  //It was causing some kind of issue with displaying,
+                  //so we had to take out the "/\/$/" from the string
                   urlLink = urlLink.replace(/\/$/, '');
                   dataSize += post.data.title.length;
 
