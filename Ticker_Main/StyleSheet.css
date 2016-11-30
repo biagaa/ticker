@@ -5,12 +5,16 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+#wrapper {
+	position: relative
+}
+
 #ticker-wrapper{
     /*position: fixed;
     top: 0;
     left: 0;*/
     height: 40px;
-    border: 1px solid black;
+    border: 1px solid gray;
 	border-bottom: 0px;
     background: red;
 }
@@ -35,6 +39,7 @@ body{
     height: inherit;
     background: black;
     left: 130px;
+	width: 100%;
     /*margin-top: -1px;*/
 }
 

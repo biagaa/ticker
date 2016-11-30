@@ -47,7 +47,7 @@ function ParseNFLData(data)
 //Set the amount of time the ticker scrolls
 function SetScrollDuration(size, type)
 {
-	var time = size / 12;
+	var time = size / 150;
 	var duration = time + 's';
 	
 	if(type === "news")
