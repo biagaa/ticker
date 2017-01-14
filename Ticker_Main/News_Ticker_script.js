@@ -25,7 +25,7 @@ function ParseRedditData(data)
 		dataSize += data.data.children[i].data.title.length;
 	}
 	
-	SetScrollDuration(dataSize, "news");
+	//SetScrollDuration(dataSize, "news");
 }
 
 function ParseNFLData(data)
@@ -47,7 +47,7 @@ function ParseNFLData(data)
 //Set the amount of time the ticker scrolls
 function SetScrollDuration(size, type)
 {
-	var time = size / 150;
+	var time = size / 12;
 	var duration = time + 's';
 	
 	if(type === "news")
